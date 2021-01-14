@@ -9,11 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK: - IBOutlets
+    @IBOutlet var tableView: UITableView!
+    
+    // MARK: - Properities
+    let tableViewDataSource = TableViewDataSource()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        // MARK: - Delegation and dataSourcing
+        tableView.dataSource = tableViewDataSource
     }
-
 
 }
 
