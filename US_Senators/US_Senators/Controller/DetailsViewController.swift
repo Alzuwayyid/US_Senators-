@@ -26,6 +26,9 @@ class DetailsViewController: UIViewController {
     @IBOutlet var sortNameLabel: UILabel!
     @IBOutlet var websiteLabel: UILabel!
     @IBOutlet var phoneLabel: UILabel!
+    @IBOutlet var firstIcon: UIImageView!
+    @IBOutlet var secondIcon: UIImageView!
+    @IBOutlet var thirdIcon: UIImageView!
     
     // MARK: - Properities
     var nameText = ""
@@ -62,6 +65,12 @@ class DetailsViewController: UIViewController {
         sortNameLabel.text = sortNameText
         websiteLabel.text = websiteText
         phoneLabel.text = phoneText
+        firstIcon.image = UIImage(named: "icon1")
+        secondIcon.image = UIImage(named: "icon2")
+        thirdIcon.image = UIImage(named: "icon3")
+        firstIcon.layer.cornerRadius = firstIcon.frame.height / 2
+        secondIcon.layer.cornerRadius = secondIcon.frame.height / 2
+        thirdIcon.layer.cornerRadius = thirdIcon.frame.height / 2
         
         // MARK: - Styling
         cardView.layer.shadowOffset = CGSize(width: 1.0, height: 1.0)
