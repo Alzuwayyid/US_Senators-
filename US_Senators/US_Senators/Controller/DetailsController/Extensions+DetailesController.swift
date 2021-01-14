@@ -62,7 +62,7 @@ extension DetailsViewController{
         
         let animation = CABasicAnimation(keyPath: "position.x")
         animation.fromValue = view.bounds.size.width - 440
-        animation.toValue = CGPoint(x: 200, y: 200)
+        animation.toValue = CGPoint(x: 210, y: 210)
         animation.duration = 0.9
         animation.beginTime = CACurrentMediaTime() + 0.0
         animation.repeatCount = 1

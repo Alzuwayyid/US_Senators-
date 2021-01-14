@@ -19,7 +19,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fXY-4I-FhG">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="homeTableView" rowHeight="128" id="HFK-cI-ubW" customClass="TableViewCell" customModule="US_Senators" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="128"/>
@@ -76,6 +76,7 @@
                                                 <constraint firstItem="IRN-gH-By9" firstAttribute="top" secondItem="SyS-Ju-iuf" secondAttribute="bottom" constant="5" id="xi4-SO-CIC"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="desc" destination="8vu-gQ-wR9" id="dWO-5Z-avF"/>
                                             <outlet property="name" destination="SyS-Ju-iuf" id="iv8-Mh-Xzf"/>
@@ -121,7 +122,7 @@
                                             <constraint firstAttribute="height" constant="21" id="HJf-id-53o"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="20"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="person link" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w3O-8K-waP">
@@ -215,8 +216,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Z5s-C9-ZLF"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="17"/>
+                                <color key="textColor" red="0.15273927282189861" green="0.14715079912403697" blue="0.28670540241279985" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Office" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lfi-gU-pVx">
@@ -224,8 +225,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="XhZ-c1-BQe"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="17"/>
+                                <color key="textColor" red="0.15273927282189861" green="0.14715079912403697" blue="0.28670540241279985" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UY1-xt-ELX">
@@ -233,8 +234,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="8aY-z9-7SK"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="17"/>
+                                <color key="textColor" red="0.15273927282189861" green="0.14715079912403697" blue="0.28670540241279985" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BirthDay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Nw-ti-Mc9">
@@ -242,8 +243,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="qYR-gR-LOr"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="17"/>
+                                <color key="textColor" red="0.15273927282189861" green="0.14715079912403697" blue="0.28670540241279985" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xA7-L2-mlo">
@@ -251,8 +252,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="xLO-iH-hJ3"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="17"/>
+                                <color key="textColor" red="0.15273927282189861" green="0.14715079912403697" blue="0.28670540241279985" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sortName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hye-1r-RJE">
@@ -260,14 +261,14 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Zfe-zf-ynh"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="17"/>
+                                <color key="textColor" red="0.15273927282189861" green="0.14715079912403697" blue="0.28670540241279985" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Website" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fGl-DJ-Dcw">
                                 <rect key="frame" x="31" y="835" width="363" height="21"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="17"/>
+                                <color key="textColor" red="0.15273927282189861" green="0.14715079912403697" blue="0.28670540241279985" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Website" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W0C-45-8cZ">
@@ -338,8 +339,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="WJV-49-6dX"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="17"/>
+                                <color key="textColor" red="0.15273927282189861" green="0.14715079912403697" blue="0.28670540241279985" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sort Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gns-vV-HUB">
@@ -356,8 +357,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="c5N-d4-Zxa"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="17"/>
+                                <color key="textColor" red="0.15273927282189861" green="0.14715079912403697" blue="0.28670540241279985" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFG-Qe-gtJ">
@@ -371,6 +372,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwA-XF-e3k">
                                 <rect key="frame" x="5" y="14" width="78" height="64"/>
+                                <color key="tintColor" name="AdminLabel"/>
                                 <state key="normal" image="backAr"/>
                                 <connections>
                                     <action selector="dismissViewController:" destination="c7O-cH-S1j" eventType="touchUpInside" id="f8T-9l-JwE"/>
@@ -481,9 +483,6 @@
         <namedColor name="FinanceAdminLabel">
             <color red="0.71799999475479126" green="0.70999997854232788" blue="0.75700002908706665" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
