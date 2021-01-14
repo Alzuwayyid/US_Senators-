@@ -49,5 +49,50 @@ extension DetailsViewController{
         secondIcon.layer.cornerRadius = secondIcon.frame.height / 2
         thirdIcon.layer.cornerRadius = thirdIcon.frame.height / 2
     }
+    
+    func animateViews(){
+        let jump = CASpringAnimation(keyPath: "transform.scale")
+        jump.damping = 9
+        jump.mass = 1
+        jump.initialVelocity = 50
+        jump.stiffness = 500.0
+        jump.fromValue = 4.0
+        jump.toValue = 1.0
+        jump.duration = jump.settlingDuration
+        
+        let animation = CABasicAnimation(keyPath: "position.x")
+        animation.fromValue = view.bounds.size.width - 440
+        animation.toValue = CGPoint(x: 200, y: 200)
+        animation.duration = 0.9
+        animation.beginTime = CACurrentMediaTime() + 0.0
+        animation.repeatCount = 1
+        animation.autoreverses = false
+        
+        let hiddenAnimation = CABasicAnimation(keyPath: "hidden")
+        hiddenAnimation.fromValue = 1
+        hiddenAnimation.toValue = 0
+        hiddenAnimation.duration = 1.6
+        hiddenAnimation.beginTime = CACurrentMediaTime() + 0.1
+        hiddenAnimation.repeatCount = 1
+        hiddenAnimation.autoreverses = false
+        
+        firstLastName.layer.add(hiddenAnimation, forKey: nil)
+        perosnLinkLabel.layer.add(hiddenAnimation, forKey: nil)
+        bioGuideId.layer.add(hiddenAnimation, forKey: nil)
+        adminLabel.layer.add(hiddenAnimation, forKey: nil)
+        partyLabel.layer.add(hiddenAnimation, forKey: nil)
+        firstIcon.layer.add(hiddenAnimation, forKey: nil)
+        secondIcon.layer.add(hiddenAnimation, forKey: nil)
+        thirdIcon.layer.add(hiddenAnimation, forKey: nil)
+        imageView.layer.add(jump, forKey: nil)
+        addressLabel.layer.add(animation, forKey: nil)
+        nameLabel.layer.add(animation, forKey: nil)
+        officeLabel.layer.add(animation, forKey: nil)
+        birthdayLabel.layer.add(animation, forKey: nil)
+        endDateLabel.layer.add(animation, forKey: nil)
+        genderLabel.layer.add(animation, forKey: nil)
+        sortNameLabel.layer.add(animation, forKey: nil)
+        websiteLabel.layer.add(animation, forKey: nil)
+        phoneLabel.layer.add(animation, forKey: nil)
+    }
 }
-
