@@ -8,7 +8,7 @@
 import UIKit
 
 class DetailsViewController: UIViewController {
-
+    
     // MARK: - IBOutlets
     @IBOutlet var cardView: UIView!
     @IBOutlet var imageView: UIImageView!
@@ -54,8 +54,6 @@ class DetailsViewController: UIViewController {
         
         // MARK: - Styling
         styleViews()
-        
-
     }
     
     override func viewWillAppear(_ animated: Bool) {

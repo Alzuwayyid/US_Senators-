@@ -8,25 +8,23 @@
 import UIKit
 
 class TableViewCell: UITableViewCell {
-
+    
     @IBOutlet var profileImageView: UIImageView!
     @IBOutlet var name: UILabel!
     @IBOutlet var party: UILabel!
     @IBOutlet var desc: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
     override func layoutSubviews() {
         super.layoutSubviews()
-
+        
         self.contentView.layer.cornerRadius = 7
         let margins = UIEdgeInsets(top: 10, left: 5.0, bottom: 10, right: 5.0)
         contentView.frame = contentView.frame.inset(by: margins)
@@ -34,5 +32,4 @@ class TableViewCell: UITableViewCell {
         contentView.tintColor = .white
         profileImageView.layer.cornerRadius = 20
     }
-
 }

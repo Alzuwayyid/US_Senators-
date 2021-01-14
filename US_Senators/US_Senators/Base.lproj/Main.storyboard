@@ -116,15 +116,6 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s3W-Hf-qd3">
                                 <rect key="frame" x="20" y="169" width="374" height="228"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="first&amp;last name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3Q-zp-2T8">
-                                        <rect key="frame" x="21" y="43" width="333" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="HJf-id-53o"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="20"/>
-                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="person link" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w3O-8K-waP">
                                         <rect key="frame" x="15" y="65" width="345" height="21"/>
                                         <constraints>
@@ -181,6 +172,15 @@
                                         <color key="textColor" name="AdminLabel"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="first&amp;last name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3Q-zp-2T8">
+                                        <rect key="frame" x="21" y="47" width="333" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="HJf-id-53o"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="18"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <constraints>
@@ -188,9 +188,9 @@
                                     <constraint firstItem="j3Q-zp-2T8" firstAttribute="leading" secondItem="s3W-Hf-qd3" secondAttribute="leading" constant="21" id="5q8-yq-Bi2"/>
                                     <constraint firstItem="pbZ-gb-dCK" firstAttribute="top" secondItem="s3W-Hf-qd3" secondAttribute="top" constant="152" id="6OC-hG-bX4"/>
                                     <constraint firstItem="pbZ-gb-dCK" firstAttribute="leading" secondItem="s3W-Hf-qd3" secondAttribute="leading" constant="53" id="IN8-1L-TXN"/>
-                                    <constraint firstItem="4co-sO-bKJ" firstAttribute="top" secondItem="j3Q-zp-2T8" secondAttribute="bottom" constant="19" id="KP6-Z7-jOJ"/>
+                                    <constraint firstItem="4co-sO-bKJ" firstAttribute="top" secondItem="j3Q-zp-2T8" secondAttribute="bottom" constant="15" id="KP6-Z7-jOJ"/>
                                     <constraint firstItem="4co-sO-bKJ" firstAttribute="leading" secondItem="s3W-Hf-qd3" secondAttribute="leading" constant="67" id="Mfn-xj-2IZ"/>
-                                    <constraint firstItem="w3O-8K-waP" firstAttribute="top" secondItem="j3Q-zp-2T8" secondAttribute="bottom" constant="1" id="Oxp-Ze-B8S"/>
+                                    <constraint firstItem="w3O-8K-waP" firstAttribute="top" secondItem="j3Q-zp-2T8" secondAttribute="bottom" constant="-3" id="Oxp-Ze-B8S"/>
                                     <constraint firstItem="67e-Yf-Jiu" firstAttribute="top" secondItem="4co-sO-bKJ" secondAttribute="bottom" constant="1" id="QeI-6k-hVA"/>
                                     <constraint firstItem="pbZ-gb-dCK" firstAttribute="top" secondItem="67e-Yf-Jiu" secondAttribute="bottom" constant="21" id="bTU-xI-2QR"/>
                                     <constraint firstItem="pbZ-gb-dCK" firstAttribute="bottom" secondItem="s3W-Hf-qd3" secondAttribute="bottomMargin" id="bqJ-cp-8Ti"/>
@@ -201,7 +201,7 @@
                                     <constraint firstItem="w3O-8K-waP" firstAttribute="leading" secondItem="fO5-Yj-lZk" secondAttribute="leading" id="kzF-46-Hi3"/>
                                     <constraint firstItem="w3O-8K-waP" firstAttribute="leading" secondItem="s3W-Hf-qd3" secondAttribute="leading" constant="15" id="qGv-Bd-5re"/>
                                     <constraint firstItem="pbZ-gb-dCK" firstAttribute="top" secondItem="fO5-Yj-lZk" secondAttribute="bottom" constant="13" id="vsX-DW-rXS"/>
-                                    <constraint firstItem="j3Q-zp-2T8" firstAttribute="top" secondItem="s3W-Hf-qd3" secondAttribute="top" constant="43" id="yz1-mk-KcO"/>
+                                    <constraint firstItem="j3Q-zp-2T8" firstAttribute="top" secondItem="s3W-Hf-qd3" secondAttribute="top" constant="47" id="yz1-mk-KcO"/>
                                     <constraint firstAttribute="trailing" secondItem="4co-sO-bKJ" secondAttribute="trailing" constant="91" id="zRV-iv-7sq"/>
                                 </constraints>
                             </view>
