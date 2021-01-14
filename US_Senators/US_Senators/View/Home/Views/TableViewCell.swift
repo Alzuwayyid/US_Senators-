@@ -10,6 +10,9 @@ import UIKit
 class TableViewCell: UITableViewCell {
 
     @IBOutlet var profileImageView: UIImageView!
+    @IBOutlet var name: UILabel!
+    @IBOutlet var party: UILabel!
+    @IBOutlet var desc: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -25,15 +28,11 @@ class TableViewCell: UITableViewCell {
         super.layoutSubviews()
 
         self.contentView.layer.cornerRadius = 7
-        let margins = UIEdgeInsets(top: 0, left: 0.0, bottom: 0, right: 0.0)
+        let margins = UIEdgeInsets(top: 10, left: 5.0, bottom: 10, right: 5.0)
         contentView.frame = contentView.frame.inset(by: margins)
-        contentView.layer.shadowOffset = CGSize(width: 1.0, height: 1.0)
-        contentView.layer.shadowOpacity = 0.4
-        contentView.layer.shadowColor = UIColor.black.cgColor
-        contentView.layer.shadowRadius = 5
-        contentView.layer.masksToBounds = true
-        contentView.layer.borderWidth = 0.3
+        contentView.layer.borderWidth = 0.1
         contentView.tintColor = .white
+        profileImageView.layer.cornerRadius = 20
     }
 
 }
