@@ -55,5 +55,8 @@ class DetailsViewController: UIViewController {
         // MARK: - Styling
         styleViews()
     }
+    @IBAction func dismissViewController(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
 }
 
