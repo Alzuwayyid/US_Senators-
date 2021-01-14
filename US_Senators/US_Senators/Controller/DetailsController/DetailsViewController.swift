@@ -54,6 +54,13 @@ class DetailsViewController: UIViewController {
         
         // MARK: - Styling
         styleViews()
+        
+
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        animateViews()
     }
     @IBAction func dismissViewController(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
