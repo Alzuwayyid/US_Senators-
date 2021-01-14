@@ -16,6 +16,9 @@
 		10B8AA7D25B0220F00DD8D7F /* US_SenatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8AA7C25B0220F00DD8D7F /* US_SenatorsTests.swift */; };
 		10B8AA8825B0220F00DD8D7F /* US_SenatorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8AA8725B0220F00DD8D7F /* US_SenatorsUITests.swift */; };
 		10B8AAA225B0235D00DD8D7F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8AAA125B0235D00DD8D7F /* DetailsViewController.swift */; };
+		10B8AAB325B024F900DD8D7F /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8AAB225B024F900DD8D7F /* TableViewDataSource.swift */; };
+		10B8AAB825B0253700DD8D7F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8AAB725B0253700DD8D7F /* TableViewCell.swift */; };
+		10B8AABD25B02A3500DD8D7F /* CodableObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8AABC25B02A3500DD8D7F /* CodableObjects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		10B8AA8725B0220F00DD8D7F /* US_SenatorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = US_SenatorsUITests.swift; sourceTree = "<group>"; };
 		10B8AA8925B0220F00DD8D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10B8AAA125B0235D00DD8D7F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		10B8AAB225B024F900DD8D7F /* TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
+		10B8AAB725B0253700DD8D7F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		10B8AABC25B02A3500DD8D7F /* CodableObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableObjects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,7 @@
 		10B8AA9825B0226A00DD8D7F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				10B8AAC125B02A3D00DD8D7F /* Senators */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -199,8 +206,18 @@
 		10B8AAA025B022C300DD8D7F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				10B8AAB225B024F900DD8D7F /* TableViewDataSource.swift */,
+				10B8AAB725B0253700DD8D7F /* TableViewCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		10B8AAC125B02A3D00DD8D7F /* Senators */ = {
+			isa = PBXGroup;
+			children = (
+				10B8AABC25B02A3500DD8D7F /* CodableObjects.swift */,
+			);
+			path = Senators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,7 +351,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				10B8AA6A25B0220F00DD8D7F /* HomeViewController.swift in Sources */,
+				10B8AAB325B024F900DD8D7F /* TableViewDataSource.swift in Sources */,
 				10B8AA6625B0220F00DD8D7F /* AppDelegate.swift in Sources */,
+				10B8AAB825B0253700DD8D7F /* TableViewCell.swift in Sources */,
+				10B8AABD25B02A3500DD8D7F /* CodableObjects.swift in Sources */,
 				10B8AA6825B0220F00DD8D7F /* SceneDelegate.swift in Sources */,
 				10B8AAA225B0235D00DD8D7F /* DetailsViewController.swift in Sources */,
 			);
