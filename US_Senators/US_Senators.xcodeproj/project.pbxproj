@@ -20,8 +20,8 @@
 		10B8AAB825B0253700DD8D7F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8AAB725B0253700DD8D7F /* TableViewCell.swift */; };
 		10B8AABD25B02A3500DD8D7F /* CodableObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8AABC25B02A3500DD8D7F /* CodableObjects.swift */; };
 		10B8AAC325B02B9B00DD8D7F /* us_senators.json in Resources */ = {isa = PBXBuildFile; fileRef = 10B8AAC225B02B9B00DD8D7F /* us_senators.json */; };
-		10B8AACF25B04D0D00DD8D7F /* Extensions+HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8AACE25B04D0D00DD8D7F /* Extensions+HomeController.swift */; };
-		10B8AADC25B04D6A00DD8D7F /* Extensions+DetailesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8AADB25B04D6A00DD8D7F /* Extensions+DetailesController.swift */; };
+		10B8AACF25B04D0D00DD8D7F /* HomeController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8AACE25B04D0D00DD8D7F /* HomeController+Extensions.swift */; };
+		10B8AADC25B04D6A00DD8D7F /* DetailesController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8AADB25B04D6A00DD8D7F /* DetailesController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,8 +61,8 @@
 		10B8AAB725B0253700DD8D7F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		10B8AABC25B02A3500DD8D7F /* CodableObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableObjects.swift; sourceTree = "<group>"; };
 		10B8AAC225B02B9B00DD8D7F /* us_senators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = us_senators.json; sourceTree = "<group>"; };
-		10B8AACE25B04D0D00DD8D7F /* Extensions+HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+HomeController.swift"; sourceTree = "<group>"; };
-		10B8AADB25B04D6A00DD8D7F /* Extensions+DetailesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+DetailesController.swift"; sourceTree = "<group>"; };
+		10B8AACE25B04D0D00DD8D7F /* HomeController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeController+Extensions.swift"; sourceTree = "<group>"; };
+		10B8AADB25B04D6A00DD8D7F /* DetailesController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailesController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,7 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				10B8AA6925B0220F00DD8D7F /* HomeViewController.swift */,
-				10B8AACE25B04D0D00DD8D7F /* Extensions+HomeController.swift */,
+				10B8AACE25B04D0D00DD8D7F /* HomeController+Extensions.swift */,
 			);
 			path = HomeController;
 			sourceTree = "<group>";
@@ -224,7 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				10B8AAA125B0235D00DD8D7F /* DetailsViewController.swift */,
-				10B8AADB25B04D6A00DD8D7F /* Extensions+DetailesController.swift */,
+				10B8AADB25B04D6A00DD8D7F /* DetailesController+Extensions.swift */,
 			);
 			path = DetailsController;
 			sourceTree = "<group>";
@@ -362,12 +362,12 @@
 			files = (
 				10B8AA6A25B0220F00DD8D7F /* HomeViewController.swift in Sources */,
 				10B8AAB325B024F900DD8D7F /* TableViewDataSource.swift in Sources */,
-				10B8AACF25B04D0D00DD8D7F /* Extensions+HomeController.swift in Sources */,
+				10B8AACF25B04D0D00DD8D7F /* HomeController+Extensions.swift in Sources */,
 				10B8AA6625B0220F00DD8D7F /* AppDelegate.swift in Sources */,
 				10B8AAB825B0253700DD8D7F /* TableViewCell.swift in Sources */,
 				10B8AABD25B02A3500DD8D7F /* CodableObjects.swift in Sources */,
 				10B8AA6825B0220F00DD8D7F /* SceneDelegate.swift in Sources */,
-				10B8AADC25B04D6A00DD8D7F /* Extensions+DetailesController.swift in Sources */,
+				10B8AADC25B04D6A00DD8D7F /* DetailesController+Extensions.swift in Sources */,
 				10B8AAA225B0235D00DD8D7F /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
